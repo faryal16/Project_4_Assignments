@@ -1,3 +1,5 @@
+# Write a Python program that takes two integer inputs from the user and calculates their sum. 
+
 def main():
     # Prompt the users
     num1 = input("Enter the first number: ")
