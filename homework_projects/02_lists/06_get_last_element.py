@@ -7,7 +7,7 @@ def get_last_element(lst):
     Print the last elemet of a provided list.
     """
     
-    print(lst [- 1])
+    print(lst [-1])
     
     
 def get_lst():
@@ -25,6 +25,7 @@ def get_lst():
     
 def main():
     lst = get_lst()
+    print("\nThe full list is:", lst)
     get_last_element(lst)
     
 if __name__ == '__main__':

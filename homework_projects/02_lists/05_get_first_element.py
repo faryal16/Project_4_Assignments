@@ -22,10 +22,11 @@ def get_lst():
     while elem != "":
         lst.append(elem)
         elem =  input("\nPlease enter an element of the list or press enter to stop. ")
-        return lst
+    return lst
     
 def main():
     lst = get_lst()
+    print("\nThe full list is:", lst)
     get_first_element(lst)
     
 if __name__ == '__main__':

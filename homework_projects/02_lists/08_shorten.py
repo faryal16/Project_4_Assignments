@@ -26,6 +26,7 @@ def get_lst():
 
 def main():
     lst = get_lst()
+    print("\nThe full list is:", lst)
     shorten(lst)
 
 
